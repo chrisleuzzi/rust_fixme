@@ -33,7 +33,7 @@ impl Display for Color {
     fn fmt(&self, f: &mut Formatter) -> fmt::Result {
         write!(f, "red: {},green: {},blue: {}",
                self.red, self.green, self.blue)
-}
+    }
 }
 
 fn main() {
